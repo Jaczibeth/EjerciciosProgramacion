@@ -10,6 +10,7 @@ import Hijo2 from './components/Props/Hijo2.vue';
 import card from './components/Card/card.vue';
 import CardPrincipal from './components/Card/CardPrincipal.vue';
 import Tulipan from './components/Tulipanes/Tulipan.vue';
+import Gatos from './components/Gatos/Gatos.vue';
 
 </script>
 
@@ -23,5 +24,6 @@ import Tulipan from './components/Tulipanes/Tulipan.vue';
  <!--<HelloWorld />-->
   <!--<HorarioJaczibeth />-->
   <!--<Padre/>-->
+  <!-- <Gatos/> -->
 </template>
 <style scoped> </style>

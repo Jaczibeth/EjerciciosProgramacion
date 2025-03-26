@@ -1,10 +1,10 @@
 <template>
     <div class="table-responsive p-3">
 
-        <h3 class="text-center mt-4 mb-4">MI HORARIO DE CLASES</h3>
+        <h3 class="text-center ">MI HORARIO DE CLASES</h3>
 
         <table class="table table-hover table-bordered mb-4">
-          <thead class="fila">
+          <thead class="table-secondary">
               <tr >
                 <th scope="col">Numero Control</th>
                 <th scope="col">Nombre</th>
@@ -23,7 +23,7 @@
         </table> 
 
         <table class="table table-hover table-bordered mb-4">
-          <thead class="thead-dark">
+          <thead class="table-secondary">
               <tr>
                 <th scope="col">Carrera</th>
                 <th scope="col">Especialidad</th>
@@ -42,7 +42,7 @@
         </table> 
         
         <table class="table table-hover table-bordered">
-          <thead class="thead-dark">
+          <thead class="table-secondary">
                  <tr> 
                 <th scope="col">Materia</th>
                 <th scope="col">Rep</th>

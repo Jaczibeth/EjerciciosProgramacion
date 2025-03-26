@@ -18,13 +18,13 @@ import GatosC from './components/Gatos/CardsGatos/GatosC.vue';
  <!-- <Tulipan/>--> 
  <!--<CardPrincipal/> --> 
  <!-- <card/>--> 
-<!--<RecorridoJaczibeth/>-->
- <!--<Recorrido  /> -->
- <!--<Horario />-->
+<!-- <RecorridoJaczibeth/> -->
+ <!-- <Recorrido  /> -->
+ <!-- <Horario /> -->
  <!--<HelloWorld />-->
-  <!--<HorarioJaczibeth />-->
+  <!-- <HorarioJaczibeth /> -->
   <!--<Padre/>-->
   <!-- <Gatos/> -->
-   <GatosC/>
+   <!-- <GatosC/> -->
 </template>
 <style scoped> </style>

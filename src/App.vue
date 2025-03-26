@@ -11,7 +11,7 @@ import card from './components/Card/card.vue';
 import CardPrincipal from './components/Card/CardPrincipal.vue';
 import Tulipan from './components/Tulipanes/Tulipan.vue';
 import Gatos from './components/Gatos/Gatos.vue';
-
+import GatosC from './components/Gatos/CardsGatos/GatosC.vue';
 </script>
 
 <template>
@@ -25,5 +25,6 @@ import Gatos from './components/Gatos/Gatos.vue';
   <!--<HorarioJaczibeth />-->
   <!--<Padre/>-->
   <!-- <Gatos/> -->
+   <GatosC/>
 </template>
 <style scoped> </style>

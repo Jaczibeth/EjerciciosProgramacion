@@ -21,7 +21,6 @@ import Tulipan from './components/Tulipanes/Tulipan.vue';
  <!--<Recorrido  /> -->
  <!--<Horario />-->
  <!--<HelloWorld />-->
- <!--<HelloWorld nombre="Jaczibeth Cruz" />-->
   <!--<HorarioJaczibeth />-->
   <!--<Padre/>-->
 </template>

@@ -1,4 +1,12 @@
 <template>
+<div class="container mt-3">
+  <div class="d-flex justify-content-between ">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTitz4TASZnvJEZqYlPeZO0ei5uG1_BaF0be0OQX4S7kWU-6yi5rOsYl-snS-TQKZRDjRk&usqp=CAU"  alt="LOGO" width="200px" height="88px" >
+             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Tecnologico_Nacional_de_Mexico.svg/1200px-Tecnologico_Nacional_de_Mexico.svg.png" alt="LOGO" width="190px" height="65px" >   
+             <img src="https://cbtis2.edu.mx/wp-content/uploads/logo_tec_texto2.png"  alt="LOGO" width="200px" height="75px" >
+              </div>
+              
+</div>
     <div class="table-responsive p-3">
 
         <h3 class="text-center ">MI HORARIO DE CLASES</h3>

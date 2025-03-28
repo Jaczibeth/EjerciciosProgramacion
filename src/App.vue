@@ -1,6 +1,7 @@
 <script setup>
 import Eventos from './components/Eventos/Eventos.vue';
 import EventosJaczibeth from './components/Eventos/EventosJaczibeth.vue';
+import PadreJ from './components/PropsJaczibeth/PadreJ.vue';
 
 
 </script>
@@ -8,6 +9,6 @@ import EventosJaczibeth from './components/Eventos/EventosJaczibeth.vue';
 <template>
 <!-- <Eventos/> -->
  <!-- <EventosJaczibeth/> -->
-  
+  <PadreJ/>
 </template>
 <style scoped> </style>

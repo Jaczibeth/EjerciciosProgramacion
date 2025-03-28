@@ -12,6 +12,7 @@
            <input  class="form-control mt-2" type="text" id="nombre" @change="nombreE">
            <p> El nombre ingresado es: <strong>{{ nombre }}</strong></p>
         </div>
+        
     </div>
      </div>
 </template>
@@ -19,8 +20,7 @@
 export default {
     data(){
         return{
-            nombre:''
-
+            nombre:'',
         }
         },
     methods:{
@@ -33,9 +33,7 @@ export default {
         nombreE(event){
             this.nombre = event.target.value
 
-        }
-
-
+        },
     }
 }
 </script>

@@ -16,11 +16,12 @@
               <p> Tus gustos son: <strong>{{ gusto }}</strong></p> 
            </div>
            <div>
-               <button @click="Click" class="btn btn-danger  "  type="button">Ver mas informacion</button>
-               <button @click="soyButon" class="btn btn-warning mx-4"  type="button">Guardar</button>
+               <button @mouseover="soyyo" class="btn btn-danger  "  type="button">Ver mas informacion</button>
+               <button @mouseover="soyButon" class="btn btn-warning mx-4"  type="button">Boton Personalizado</button>
+            </div>
            </div>
        </div>
-        </div>
+        
    </template>
    <script>
    export default {
@@ -32,8 +33,8 @@
            }
            },
        methods:{
-           Click(){
-               alert("Gracias por darle clic")
+           soyyo(){
+               alert("Gracias por visitarme")
            },
            soyButon(){
                alert("soy un boton")

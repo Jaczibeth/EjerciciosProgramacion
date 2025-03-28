@@ -7,12 +7,20 @@
             <button @click="soyButon" class="btn btn-warning mx-2"  type="button">Dale Clic 2</button>
         </div>
         <div>
-            <h4> Evento Change</h4>
+           <h4> Evento Change</h4>
            <label class="input-group-text"   far="">Ingresa tu nombre </label>
            <input  class="form-control mt-2" type="text" id="nombre" @change="nombreE">
            <p> El nombre ingresado es: <strong>{{ nombre }}</strong></p>
         </div>
-        
+
+        <div>
+            <h3> Evento de mouseenter y mouseleave</h3>
+            <div style=" color: azure;  width: 300px;height: 200px; background-color: black;text-align:center;padding: 15px;border-radius:14px;"
+            @mouseenter="mostrarMensaje" @mouseleave="ocultarMensaje">
+            <p> pase el mause </p>
+            <p > {{ mensaje }}</p>
+            </div>
+        </div>
     </div>
      </div>
 </template>
@@ -21,6 +29,7 @@ export default {
     data(){
         return{
             nombre:'',
+            mensaje:'',
         }
         },
     methods:{
@@ -34,6 +43,14 @@ export default {
             this.nombre = event.target.value
 
         },
+
+        mostrarMensaje(){
+            this.mensaje="El mause esta dentro del rectangulo"
+        },
+
+        ocultarMensaje(){
+             this.mensaje="El mause esta fuera del rectangulo"
+        }
     }
 }
 </script>

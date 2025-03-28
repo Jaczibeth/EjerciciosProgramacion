@@ -2,22 +2,22 @@
     <div class="container">
        <div class="row mt-4">
            <div>
-               <h4 class="md-4"> Evento Click</h4>
-               <button @click="Click" class="btn btn-danger "  type="button">Dale Clic</button>
-               <button @click="soyButon" class="btn btn-warning mx-2"  type="button">Dale Clic 2</button>
-           </div>
-           <div>
-               <h4 class=" texto mt-2"> Evento Change</h4>
+            <h1 class="text-center">MI EJEMPLO</h1>
+               <h4 class=" texto mt-2"> DATOS PERSONALES</h4>
               <label class="input-group-text"   far="">Ingresa tu nombre </label>
               <input  class="form-control mt-2" type="text" id="nombre" @change="nombreE">
               <p> El nombre ingresado es: <strong>{{ nombre }}</strong></p>
            </div>
            <div>
-                <h1 class="text-center">MI EJEMPLO</h1>
-               <h4 class="texto mt-4" > Evento Gustos</h4>
+                
+               <h4 class="texto mt-4" > MIS GUSTOS </h4>
               <label class="input-group-text"   far=""> Cuentame lo que te gusta  </label>
               <input  class="form-control mt-2" type="text" id="gusto" @change="gustoE">
               <p> Tus gustos son: <strong>{{ gusto }}</strong></p> 
+           </div>
+           <div>
+               <button @click="Click" class="btn btn-danger  "  type="button">Ver mas informacion</button>
+               <button @click="soyButon" class="btn btn-warning mx-4"  type="button">Guardar</button>
            </div>
        </div>
         </div>

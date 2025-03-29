@@ -7,7 +7,7 @@
             <button @click="soyButon" class="btn btn-warning mx-2"  type="button">Dale Clic 2</button>
         </div>
         <div>
-           <h4> Evento Change</h4>
+            <h4> Evento Change</h4>
            <label class="input-group-text"   far="">Ingresa tu nombre </label>
            <input  class="form-control mt-2" type="text" id="nombre" @change="nombreE">
            <p> El nombre ingresado es: <strong>{{ nombre }}</strong></p>
@@ -19,9 +19,9 @@
             @mouseenter="mostrarMensaje" @mouseleave="ocultarMensaje">
             <p> pase el mause </p>
             <p > {{ mensaje }}</p>
-            </div>
+             </div>
         </div>
-    </div>
+                </div>
      </div>
 </template>
 <script>

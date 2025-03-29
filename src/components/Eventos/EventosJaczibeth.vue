@@ -14,8 +14,8 @@
               <p> Tus gustos son: <strong>{{ gusto }}</strong></p> 
             </div>
             <div class="d-flex justify-content-center gap-3 mt-3">
-               <button @mouseover="soyyo" class="btn mx-4 "  type="button">Ver mas informacion</button>
-               <button @mouseover="soyjaczibeth" class="btn mx-4"  type="button">Boton Personalizado</button>
+               <button @mouseover="soyyo" class="clar btn mx-4 "  type="button">Ver mas informacion</button>
+               <button @mouseover="soyjaczibeth" class=" clar btn mx-4"  type="button">Boton Personalizado</button>
             </div>
             </div>
             </div>
@@ -68,7 +68,7 @@
     body{
         background-color: #fae8e8;
     }
-    .btn{
+    .clar{
         background-color: #b2e3f6;
         border-radius: 15px;
         align-self: start;

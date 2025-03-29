@@ -7,7 +7,11 @@ defineProps({
 </script>
 
 <template>
-<p> Tengo la edad de:{{ edad }}</p>
+<p class="ed"> Tengo la edad de:{{ edad }}</p>
 </template>
 
-<style scoped></style>
+<style scoped>
+.ed{
+    text-align: center;
+}
+</style>

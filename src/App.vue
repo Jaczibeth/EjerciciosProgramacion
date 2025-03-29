@@ -8,7 +8,7 @@ import PadreJ from './components/PropsJaczibeth/PadreJ.vue';
 
 <template>
 <!-- <Eventos/> -->
- <EventosJaczibeth/>
-  <!-- <PadreJ/> -->
+ <!-- <EventosJaczibeth/> -->
+  <PadreJ/>
 </template>
 <style scoped> </style>

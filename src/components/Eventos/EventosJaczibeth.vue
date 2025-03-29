@@ -1,28 +1,26 @@
 <template >
-    <div class="container">
-       <div class="row mt-4">
-           <div>
+    <div class="container mt-5">
+       <div class="row justify-content-center">
+        <div class="col-md-6">
             <h1 class="text-center">MI EJEMPLO</h1>
-               <h4 class=" texto mt-2"> DATOS PERSONALES</h4>
+               <h4 class=" subtitulo mt-2"> DATOS PERSONALES</h4>
               <label class="input-group-text"   far="">Ingresa tu nombre </label>
               <input  class="form-control mt-2" type="text" id="nombre" @change="nombreE">
               <p> El nombre ingresado es: <strong>{{ nombre }}</strong></p>
-           </div>
-           <div>
-                
-               <h4 class="texto mt-4" > MIS GUSTOS </h4>
-              <label class="input-group-text"   far=""> Cuentame lo que te gusta  </label>
+             <div>
+               <h4 class="subtitulo mt-4" > MIS GUSTOS </h4>
+              <label class="input-group-text center" far=""> Cuentame lo que te gusta  </label>
               <input  class="form-control mt-2" type="text" id="gusto" @change="gustoE">
               <p> Tus gustos son: <strong>{{ gusto }}</strong></p> 
-           </div>
-           <div>
-               <button @mouseover="soyyo" class="btn btn-danger  "  type="button">Ver mas informacion</button>
-               <button @mouseover="soyButon" class="btn btn-warning mx-4"  type="button">Boton Personalizado</button>
             </div>
-           </div>
-       </div>
-        
-   </template>
+            <div class="d-flex justify-content-center gap-3 mt-3">
+               <button @mouseover="soyyo" class="btn mx-4 "  type="button">Ver mas informacion</button>
+               <button @mouseover="soyjaczibeth" class="btn mx-4"  type="button">Boton Personalizado</button>
+            </div>
+            </div>
+            </div>
+    </div>
+</template>
    <script>
    export default {
        data(){
@@ -32,12 +30,12 @@
    
            }
            },
-       methods:{
+        methods:{
            soyyo(){
                alert("Gracias por visitarme")
            },
-           soyButon(){
-               alert("soy un boton")
+           soyjaczibeth(){
+               alert("Hola")
            },
            nombreE(event){
                this.nombre = event.target.value
@@ -46,24 +44,33 @@
            gustoE(event){
                this.gusto = event.target.value
            }
-   
-   
        }
    }
    </script>
-   
    <style >
 .text-center{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: antiquewhite;
-    color: brown;
+    font-family: fantasy;
+    background-color: #e3b2e8;
+    color: rgb(9, 50, 186);
 }
-h4{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.subtitulo{
+        font-family: cursive;
+        background-color: #d1e7ff;
+        border-radius: 8px;
 }
 
 .texto{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(144, 209, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#a3dbf1;
+    text-align: justify;
+    }
+
+    body{
+        background-color: #fae8e8;
+    }
+    .btn{
+        background-color: #b2e3f6;
+        border-radius: 15px;
+        align-self: start;
     }
 </style>

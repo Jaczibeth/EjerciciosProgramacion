@@ -1,14 +1,11 @@
 <script setup>
-import Eventos from './components/Eventos/Eventos.vue';
-import EventosJaczibeth from './components/Eventos/EventosJaczibeth.vue';
-import PadreJ from './components/PropsJaczibeth/PadreJ.vue';
+import CalculadoraV1 from './components/Calculadora/CalculadoraV1.vue';
+
 
 
 </script>
 
 <template>
-<!-- <Eventos/> -->
- <!-- <EventosJaczibeth/> -->
-  <PadreJ/>
+<CalculadoraV1/>
 </template>
 <style scoped> </style>
